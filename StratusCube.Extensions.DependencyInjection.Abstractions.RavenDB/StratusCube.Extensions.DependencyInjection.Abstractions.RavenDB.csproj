@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>6.0.0</Version>
+		<Authors>Mark Pro, StratusCube Contributors</Authors>
+		<Company>StratusCube</Company>
+		<Description>Provides abstractions which can be used to configure and build a Raven.Client.Documents.IDocumentStore</Description>
+		<PackageIcon>nuget-icon.png</PackageIcon>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<PackageTags>RavenDB;DependencyInjection;Extensions;StratusCube;Dependency;Injection;Abstractions;</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<Copyright>StratusCube LLC.</Copyright>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageProjectUrl>https://www.nuget.org/packages/StratusCube.Extensions.DependencyInjection.Abstractions.RavenDB/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/StratusCube/StratusCube.Extensions.DependencyInjection.RavenDB</RepositoryUrl>
+		<RunAnalyzersDuringBuild>True</RunAnalyzersDuringBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="README.md">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</Content>
+		<Content Include="LICENSE">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</Content>
+		<Content Include="nuget-icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</Content>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp.CodeStyle" Version="4.2.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+		<PackageReference Include="RavenDB.Client" Version="5.3.102" />
+	</ItemGroup>
+
+</Project>
