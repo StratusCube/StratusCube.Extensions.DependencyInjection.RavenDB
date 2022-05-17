@@ -1,6 +1,9 @@
 
 # StratusCube.Extensions.DependencyInjection.RavenDB
 
+[![.NET](https://github.com/StratusCube/StratusCube.Extensions.DependencyInjection.RavenDB/actions/workflows/dotnet.yml/badge.svg)](https://github.com/StratusCube/StratusCube.Extensions.DependencyInjection.RavenDB/actions/workflows/dotnet.yml)
+[![CodeQL](https://github.com/StratusCube/StratusCube.Extensions.DependencyInjection.RavenDB/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/StratusCube/StratusCube.Extensions.DependencyInjection.RavenDB/actions/workflows/codeql-analysis.yml)
+
 Configure an instance of [RavenDB's `IDocumentStore`](https://ravendb.net/docs/article-page/5.3/Csharp/client-api/creating-document-store) to `IServiceCollection` 
 
 ## Getting Started
